@@ -24,7 +24,7 @@ step = -1
 for i in range(start, stop, step):
 	print(number[i])
 	rev_numbers.append(number[i])
-print(rev_numbers)
+print(rev_numbers)  # ========> [10,9,8,7,6,5,4,3,2,1]
 
 del number
 del rev_numbers
@@ -37,8 +37,8 @@ print("=============================================================>\n")
 number = [1,2,3,4,5,6,7,8,9,10]
 max_number = max(number)
 min_number = min(number)
-print("MAX NUMBER : " + str(max_number))
-print("MIN NUMBER : " + str(min_number))
+print("MAX NUMBER : " + str(max_number))  # ========> MAX NUMBER : 10
+print("MIN NUMBER : " + str(min_number))  # ========> MIN NUMBER : 1
 
 del number
 del max_number
@@ -56,7 +56,7 @@ for i in range(start, stop, step):
 		filter_number.append(number[i])
 	# else:
 	# 	print(number[i])
-print("FILTER LIST : " + str(filter_number))
+print("FILTER LIST : " + str(filter_number))  # ========> OUTPUT: FILTER LIST : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 del number
 del filter_number
@@ -90,7 +90,7 @@ stop = len(fruits)
 step = 1
 for i in range(start, stop, step):
 	if fruits[i] == elements:
-		print(fruits[i])
+		print("INDEX :", i)  #========> OUTPUT: INDEX : 1
 		break 
       
 del fruits
@@ -130,7 +130,7 @@ for i in range(start, stop, step):
     result += mine[i]
     if i != stop - 1:
         result += " "
-print("RESULT: " + str(result))
+print("RESULT: " + str(result))  # ========> RESULT: This is Hari
 
 del mine
 del start
@@ -152,8 +152,8 @@ for i in range(start, stop, step):
       else:
             odd.append(number[i])
 
-print("EVEN NUMBER : " + str(even))
-print("ODD NUMBER  : " + str(odd))
+print("EVEN NUMBER : " + str(even))  # ========> EVEN NUMBER : [2, 4, 6, 8, 10]
+print("ODD NUMBER  : " + str(odd))  # ========> ODD NUMBER  : [1, 3, 5, 7, 9]
 
 del number
 del even
