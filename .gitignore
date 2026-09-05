@@ -13,3 +13,6 @@ menv/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+
+python-version
