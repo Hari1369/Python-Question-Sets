@@ -119,6 +119,7 @@ for i in range(1, a + 1):
 print("Factorial : ", factorial)
 
 
+
 # 8) Print Fibonacci series - Input: 7 Output: 0 1 1 2 3 5 8 Find duplicate elements in a list
 number = int(input("Enter Number : "))
 first = 0
@@ -126,7 +127,6 @@ second = 1
 fibonacci = []
 for i in range(number):
     fibonacci.append(first)
-
     third = first + second
     first = second
     second = third
@@ -144,6 +144,7 @@ for i in range(n):
             print(number[i])
 
 
+
 # 10) Find the second largest number - Input: [10, 5, 8, 20, 15] - Output: 15
 number = [10, 5, 8, 20, 15]
 n = len(number)
@@ -155,7 +156,6 @@ if second_largest > largest:
     second_largest = number[0]
 
 for i in range(2, n):
-
     if number[i] > largest:
         second_largest = largest
         largest = number[i]
